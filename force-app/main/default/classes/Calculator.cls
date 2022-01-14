@@ -1,3 +1,13 @@
+/**********************************
+ * 
+ * Version       Date         Name           Description
+ * ======================================================================
+ * V1.0         14-01-2022    Develoepr1     Add menthod implemented
+ * 
+ * 
+ ***********************************/
+
+
 /********
  * Name: Calculator
  * Author:Debasis
@@ -9,5 +19,8 @@ public with sharing class Calculator {
     public Calculator() {
 
     }
-
+    Public integer add(integer a, integer b){
+        return a+b;
+    }
+    
 }
