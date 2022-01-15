@@ -25,4 +25,7 @@ public with sharing class Calculator {
         return a+b;
     }
 
+    Public integer sub(integer a, integer b){
+        return a-b;
+    }
 }
